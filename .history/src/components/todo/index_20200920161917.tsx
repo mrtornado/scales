@@ -265,7 +265,7 @@ class Todo extends React.Component<{ user: userbase.UserResult }, ITodoState> {
             <input
               id="todoName"
               type="text"
-              placeholder="Add Bidder"
+              placeholder="Add Todo"
               value={this.state.addTodoForm.getFormField("todoName").value}
               onChange={this.handleInputChange}
               onBlur={this.handleBlurEvent}
